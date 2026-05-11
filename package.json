@@ -1,1 +1,8 @@
-{"dependencies": {}}
+{
+  "name": "workspace-root",
+  "private": true,
+  "workspaces": [
+    "react-vite"
+  ],
+  "dependencies": {}
+}
