@@ -3,22 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <title>Hello World</title>
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-    <!-- Don't use this in production: -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="text/babel">
+    <script>
       function MyApp() {
-        return <h1>Hello, Han!</h1>;
+        return React.createElement('h1', null, 'Hello, Han!');
       }
 
       const container = document.getElementById('root');
       const root = ReactDOM.createRoot(container);
-      root.render(<MyApp />);
+      root.render(React.createElement(MyApp));
     </script>
     <!--
       Note: this page is a great way to try React but it's not suitable for production.
