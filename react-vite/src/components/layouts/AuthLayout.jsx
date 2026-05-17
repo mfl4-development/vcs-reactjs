@@ -11,12 +11,14 @@
 const AuthLayout = (props) => {
   const { title, children } = props;
   return (
-    <div className='w-full max-w-xs'>
-      <h1 className='mb-2 text-3xl font-bold text-blue-600'>{title}</h1>
-      <p className='mb-8 font-medium text-slate-500'>
-        Selamat datang, silakan masukkan detail Anda
-      </p>
-      {children}
+    <div className='flex items-center justify-center min-h-screen'>
+      <div className='w-full max-w-xs'>
+        <h1 className='mb-2 text-3xl font-bold text-blue-600'>{title}</h1>
+        <p className='mb-6 font-medium text-slate-500'>
+          Selamat datang, silakan masukkan detail Anda
+        </p>
+        {children}
+      </div>
     </div>
   );
 };

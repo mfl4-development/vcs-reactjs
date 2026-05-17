@@ -16,7 +16,7 @@ import Label from './Label';
 const LabelInput = (props) => {
   const { name, label, type, placeholder } = props;
   return (
-    <div className='mb-6'>
+    <div className='mb-4'>
       <Label htmlFor={name}>{label}</Label>
       <Input type={type} name={name} placeholder={placeholder} />
     </div>

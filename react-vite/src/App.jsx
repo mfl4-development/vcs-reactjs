@@ -1,10 +1,7 @@
-import RegisterPage from './pages/register';
-
 function App() {
   return (
     <div className='flex items-center justify-center min-h-screen'>
-      {/* <LoginPage /> */}
-      <RegisterPage />
+      <h1 className='text-9xl font-bold text-blue-600'>Hello, Han!</h1>
     </div>
   );
 }
