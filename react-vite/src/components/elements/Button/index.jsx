@@ -7,10 +7,11 @@
  * @param {string} props.text - Teks yang ditampilkan di tombol.
  * @returns {JSX.Element} - Komponen Button.
  */
+
 const Button = (props) => {
   const { variant = 'bg-black', text } = props;
   return (
-    <button className={`h-10 px-6 font-semibold rounded-md ${variant} text-white`} type="submit">
+    <button className={`h-10 px-6 font-semibold text-white ${variant} rounded-md`} type='submit'>
       {text}
       {props.children}
     </button>
