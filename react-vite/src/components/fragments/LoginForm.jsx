@@ -1,5 +1,5 @@
-import LabelInput from '../elements/LabelInput';
 import Button from '../elements/Button';
+import LabelInput from '../elements/LabelInput';
 
 /**
  * Komponen login yang digunakan untuk menampilkan form login.

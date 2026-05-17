@@ -1,5 +1,5 @@
-import AuthLayout from '../components/layouts/AuthLayout';
 import LoginForm from '../components/fragments/LoginForm';
+import AuthLayout from '../components/layouts/AuthLayout';
 
 /**
  * Halaman login yang menampilkan form login.

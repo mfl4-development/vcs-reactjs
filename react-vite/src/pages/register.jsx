@@ -1,5 +1,5 @@
-import AuthLayout from '../components/layouts/AuthLayout';
 import RegisterForm from '../components/fragments/RegisterForm';
+import AuthLayout from '../components/layouts/AuthLayout';
 
 /**
  * Halaman registrasi yang menampilkan form registrasi.
