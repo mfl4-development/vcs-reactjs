@@ -4,7 +4,7 @@ const Input = ({ type, placeholder, name }) => {
       type={type}
       name={name}
       id={name}
-      className='w-full px-3 py-2 text-sm border rounded text-slate-700 placeholder:opacity-95'
+      className='w-full rounded border px-3 py-2 text-sm text-slate-700 placeholder:opacity-95'
       placeholder={placeholder}
     />
   );

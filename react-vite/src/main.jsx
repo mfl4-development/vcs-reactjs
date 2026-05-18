@@ -5,6 +5,7 @@ import App from './App.jsx';
 import './index.css';
 import ErrorPage from './pages/error.jsx';
 import LoginPage from './pages/login.jsx';
+import ProductPage from './pages/product.jsx';
 import RegisterPage from './pages/register.jsx';
 
 const Router = createBrowserRouter([
@@ -20,6 +21,10 @@ const Router = createBrowserRouter([
   {
     path: '/register',
     element: <RegisterPage />,
+  },
+  {
+    path: '/product',
+    element: <ProductPage />,
   },
 ]);
 
