@@ -1,13 +1,6 @@
 import Button from '../elements/Button';
 import LabelInput from '../elements/LabelInput';
 
-/**
- * Komponen form registrasi yang digunakan untuk menampilkan form registrasi.
- *
- * @component
- * @returns {JSX.Element} - Komponen form registrasi.
- */
-
 const RegisterForm = () => {
   return (
     <form action=''>
